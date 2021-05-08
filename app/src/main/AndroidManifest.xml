@@ -8,8 +8,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:fullBackupContent="true"
         android:theme="@style/Theme.ParkaLot">
-        <activity android:name=".MainActivity">
+
+        <activity android:name=".ParkingActivity"/>
+
+        <activity android:name=".HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

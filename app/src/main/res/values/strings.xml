@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">ParkaLot</string>
+
+    <string name="parkText">Parking Lot</string>
+    <string name="parkingLot">Mall A</string>
+
+    <string name="chooseParkDesc">Choose Parking Lot</string>
+    <string name="imgParkDetailsDesc">Parking Lot Image Details</string>
+    <string name="btnBackDesc">Back Button To Home</string>
 </resources>
