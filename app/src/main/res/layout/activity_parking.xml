@@ -21,7 +21,7 @@
         android:id="@+id/parkTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/parkText"
+        android:text="@string/parkingLot"
         android:textSize="18sp"
         android:textColor="@color/black"
         android:textStyle="bold"
@@ -41,10 +41,130 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            android:src="@color/black"
+            android:src="@drawable/parking_lot"
             android:contentDescription="@string/imgParkDetailsDesc"/>
 
     </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgParkDetail"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PIM"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/location"
+        app:layout_constraintTop_toTopOf="@id/location"/>
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/price"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/location"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/priceTag"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/price"
+        app:layout_constraintTop_toTopOf="@id/price"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgParkDetail"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <TextView
+            android:id="@+id/A1"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A1"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintEnd_toStartOf="@id/A2"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/A2"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A2"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/A3"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A3"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintStart_toEndOf="@id/A2"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/A4"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A4"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintStart_toEndOf="@id/A5"
+            app:layout_constraintTop_toBottomOf="@id/A3"/>
+
+        <TextView
+            android:id="@+id/A5"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A5"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/A2"/>
+
+        <TextView
+            android:id="@+id/A6"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_margin="6dp"
+            android:textAlignment="center"
+            android:text="@string/A6"
+            android:background="@drawable/spot_layout_green"
+            app:layout_constraintEnd_toStartOf="@id/A5"
+            app:layout_constraintTop_toBottomOf="@id/A1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 
 

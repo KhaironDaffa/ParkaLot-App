@@ -29,4 +29,10 @@ class ParkingActivity : AppCompatActivity(), View.OnClickListener {
             }
         }
     }
+
+    private fun indicator(indicator: Int) {
+        if (indicator == 0){
+
+        }
+    }
 }

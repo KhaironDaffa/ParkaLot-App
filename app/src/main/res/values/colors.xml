@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="purple_main">#7664C6</color>
+    <color name="silver">#DCE3E7</color>
+    <color name="green">#4DED30</color>
+    <color name="red">#FF0000</color>
 </resources>
