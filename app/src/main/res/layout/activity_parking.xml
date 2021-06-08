@@ -63,6 +63,7 @@
         android:layout_height="wrap_content"
         android:text="@string/PIM"
         android:textSize="15sp"
+        android:layout_marginStart="4dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@id/location"
         app:layout_constraintTop_toTopOf="@id/location"/>
@@ -84,6 +85,7 @@
         android:layout_height="wrap_content"
         android:text="@string/priceTag"
         android:textSize="15sp"
+        android:layout_marginStart="4dp"
         android:textColor="@color/black"
         app:layout_constraintStart_toEndOf="@id/price"
         app:layout_constraintTop_toTopOf="@id/price"/>
@@ -103,6 +105,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A1"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintEnd_toStartOf="@id/A2"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -114,6 +117,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A2"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -126,6 +130,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A3"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintStart_toEndOf="@id/A2"
             app:layout_constraintTop_toTopOf="parent"/>
@@ -137,6 +142,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A4"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintStart_toEndOf="@id/A5"
             app:layout_constraintTop_toBottomOf="@id/A3"/>
@@ -148,6 +154,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A5"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -160,6 +167,7 @@
             android:layout_margin="6dp"
             android:textAlignment="center"
             android:text="@string/A6"
+            android:textColor="@color/black"
             android:background="@drawable/spot_layout_green"
             app:layout_constraintEnd_toStartOf="@id/A5"
             app:layout_constraintTop_toBottomOf="@id/A1"/>
